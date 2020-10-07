@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/background"
+tools:context=".HealthData">
+<!--<ScrollView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+
+<TextView
+    android:id="@+id/tv_create"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/tv_welcome2"
+    android:layout_marginTop="35dp"
+    android:fontFamily="sans-serif-light"
+    android:text="  Your Health Data"
+    android:textColor="@color/dark"
+    android:textSize="40sp" />
+
+<com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:neomorph_view_type="rectangular"
+    app:neomorph_shadow_type="outer"
+    app:neomorph_elevation="6dp"
+    app:neomorph_corner_radius="10dp"
+    app:neomorph_background_color="@color/background"
+    app:neomorph_shadow_color="@color/shadow_color"
+    app:neomorph_highlight_color="@color/highlight"
+    android:layout_above="@+id/weight">
+
+    <EditText
+        android:id="@+id/su_age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_rectangle"
+        android:hint="Age"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"/>
+
+</com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+<com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+    android:id="@+id/weight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:neomorph_view_type="rectangular"
+    app:neomorph_shadow_type="outer"
+    app:neomorph_elevation="6dp"
+    app:neomorph_corner_radius="10dp"
+    app:neomorph_background_color="@color/background"
+    app:neomorph_shadow_color="@color/shadow_color"
+    app:neomorph_highlight_color="@color/highlight"
+    android:layout_above="@+id/blgrp">
+
+    <EditText
+        android:id="@+id/wgt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_rectangle"
+        android:hint="Weight"
+        android:paddingStart="10dp"
+        android:inputType="numberDecimal"
+        android:paddingEnd="10dp"/>
+</com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+<com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+    android:id="@+id/blgrp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:neomorph_view_type="rectangular"
+    app:neomorph_shadow_type="outer"
+    app:neomorph_elevation="6dp"
+    app:neomorph_corner_radius="10dp"
+    app:neomorph_background_color="@color/background"
+    app:neomorph_shadow_color="@color/shadow_color"
+    app:neomorph_highlight_color="@color/highlight"
+    android:layout_centerInParent="true"
+    app:passwordToggleEnabled="true">
+
+    <EditText
+        android:id="@+id/bgrp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shape_rectangle"
+        android:hint="Blood Group"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        />
+
+</com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+
+
+<com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+    android:id="@+id/layout_signup"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:neomorph_view_type="rectangular"
+    app:neomorph_shadow_type="outer"
+    app:neomorph_elevation="6dp"
+    app:neomorph_corner_radius="10dp"
+    app:neomorph_background_color="@color/background"
+    app:neomorph_shadow_color="@color/shadow_color"
+    app:neomorph_highlight_color="@color/highlight"
+    android:layout_below="@+id/blgrp"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true">
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:text="SIGN UP"
+        android:textColor="@color/highlight"/>
+
+</com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+
+
+
+
+<!--</ScrollView>-->
+</RelativeLayout>

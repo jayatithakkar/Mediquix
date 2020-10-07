@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "264477214558",
+    "firebase_url": "https://dbtr-9180c.firebaseio.com",
+    "project_id": "dbtr-9180c",
+    "storage_bucket": "dbtr-9180c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264477214558:android:4dda8b84543832192071cf",
+        "android_client_info": {
+          "package_name": "com.example.dbtr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264477214558-05oc96avo3oposkq7mavnpc4a2b5e8u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACRpiWjFy5vRRGMn4WO-x0PcVuCRqh4c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264477214558-05oc96avo3oposkq7mavnpc4a2b5e8u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
