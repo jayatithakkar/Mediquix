@@ -8,7 +8,7 @@
     android:id="@+id/navbar">
 
     <com.ismaeldivita.chipnavigation.ChipNavigationBar
-        android:id="@+id/bottom_nav"
+        android:id="@+id/bottom_navi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cnb_menuResource="@menu/bottom_nav"
@@ -16,9 +16,15 @@
         android:background="#FFFFFF"
         app:cnb_unselectedColor="#000000"
         app:cnb_radius="8dp"
-        app:cnb_iconSize="10dp"
+        app:cnb_iconSize="20dp"
         app:cnb_orientationMode="horizontal"
         android:layout_margin="15dp"
         android:elevation="4dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:layout_above="@+id/bottom_navi"/>
 
 </RelativeLayout>

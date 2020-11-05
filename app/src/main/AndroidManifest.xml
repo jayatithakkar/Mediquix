@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HealthData"></activity>
+        <activity android:name=".test2"></activity>
+        <activity android:name=".Viewj" />
+        <activity android:name=".View" />
+        <activity android:name=".HealthData" />
         <activity android:name=".HomePage" />
         <activity android:name=".SignUp" />
         <activity android:name=".MainActivity">

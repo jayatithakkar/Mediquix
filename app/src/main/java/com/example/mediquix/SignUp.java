@@ -80,7 +80,7 @@ public class SignUp extends AppCompatActivity {
                     Toast.makeText(SignUp.this, "Please Enter Password", Toast.LENGTH_SHORT).show();
                 }
                 if(TextUtils.isEmpty(String.valueOf(cnum))){
-                    Toast.makeText(SignUp.this, "Please Enter Email", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SignUp.this, "Please Enter Contact Number", Toast.LENGTH_SHORT).show();
                 }
                 if(TextUtils.isEmpty(gndr)){
                     Toast.makeText(SignUp.this, "Please Select your Gender", Toast.LENGTH_SHORT).show();

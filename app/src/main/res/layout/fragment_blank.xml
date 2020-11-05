@@ -1,17 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".BlankFragment"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
     android:layout_above="@+id/bottom_nav">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
-</LinearLayout>
+        <!-- TODO: Update blank fragment layout -->
+        <com.denzcoskun.imageslider.ImageSlider
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            app:auto_cycle="true"
+            app:delay="0"
+            app:period="1000"
+            app:corner_radius="5"
+            android:id="@+id/sldr"
+            app:placeholder="@drawable/chld"
+            app:error_image="@drawable/chld"
+            >
+        </com.denzcoskun.imageslider.ImageSlider>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#E6E6E6"
+            android:id="@+id/slder2"
+            android:layout_below="@+id/sldr"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="#E6E6E6"
+            android:id="@+id/slder3"
+            android:layout_below="@+id/slder2"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Thyroid"
+            android:layout_below="@+id/slder3"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/ttlt"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t5"
+            android:text="Hypothyroidism"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/hypo"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="@string/t"
+            android:layout_below="@+id/ttlt"
+
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:id="@+id/letst"/>
+
+        <ImageView
+            android:layout_width="320dp"
+
+            android:layout_height="250dp"
+            android:src="@drawable/gland"
+            android:layout_below="@+id/ttlt"
+            android:layout_marginLeft="225dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/letst"
+            android:text="@string/t2"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/t2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t2"
+            android:text="@string/t3"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/t3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t3"
+            android:text="@string/t4"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/t4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t4"
+            android:text="@string/t5"
+            android:id="@+id/t5"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hypo"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/hypotv">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/o1"
+                android:textSize="12dp"
+                android:id="@+id/o1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/o1"
+                android:text="@string/o2"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:id="@+id/o2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/o2"
+                android:text="@string/o3"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:id="@+id/o3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/o3"
+                android:text="@string/o4"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#1EB0F3"
+                android:id="@+id/o4"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hypotv"
+            android:text="Hyperthyroidism"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/hyper"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hyper"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/hypetv">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/e1"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:id="@+id/e1"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/e1"
+                android:text="@string/e2"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:id="@+id/e2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/e2"
+                android:text="@string/e3"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:id="@+id/e3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/e3"
+                android:layout_marginLeft="5dp"
+                android:text="@string/e4"
+                android:textSize="15dp"
+                android:textColor="#1EB0F3"
+                android:id="@+id/e4"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

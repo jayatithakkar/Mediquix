@@ -1,5 +1,62 @@
 <resources>
     <string name="app_name">Mediquix</string>
+
+    <string name="t"><br> Thyroid is an Autoimmune Disease. It affects the Thyroid gland, which is located in the neck.</br>
+        <br> The thyroid secretes several hormones, collectively called as Thyroid hormones. By checking the level of these hormones,
+            one can say if they are suffering from this disorder or not.</br>
+        </string>
+    <string name="t2">
+            <br> <b>There are basically two kinds of this disorder.</b></br></string>
+    <string name="t3">
+        <br>1. Hypothyroidism</br></string>
+    <string name="t4">
+        <br>2. Hyperthyroidism</br></string>
+    <string name="t5">
+        <br>Detailed Information is given below:</br></string>
+
+    <string name="o1">It is also known as <i><b>Underactive Thyroid</b></i> as it produces less hormones than the normal. \n
+        The main Cause is Iodine Deficiency. \n
+        Its Symptoms Include: \n
+        -<b>Weight Gain</b>\n
+        -<b>Constipation</b>\n
+        -<b>Myxedema (swelling on face or eyebrows)</b>\n
+        -<b>Low Heart Rate</b>\n
+        -<b>High Blood Pressure</b>\n
+        -<b>Change in Skin color - Pale yellow</b>\n
+        -<b>Dry skin</b>\n
+        -<b>Intolerance to Cold</b>\n
+        -<b>In females - Infertility</b>\n
+    </string>
+
+    <string name="o2">In youngsters having very low production of the hormones, these symptoms can be seen: \n
+        -<b>Cretinism</b>\n
+        -<b>Slow Reflexes</b>\n
+    </string>
+
+    <string name="o3">Still having doubts? </string>
+    <string name="o4"><u>Click here to get yourself tested!</u></string>
+
+
+    <string name="e1">It is also known as <i><b>Overactive Thyroid</b></i> as it produces more hormones than the normal. \n
+        Its Symptoms Include: \n
+        -<b>Weight Loss</b>\n
+        -<b>Diarrhoea</b>\n
+        -<b>High Heart Rate</b>\n
+        -<b>High Blood Pressure</b>\n
+        -<b>Palpitation</b>\n
+        -<b>Excessive Sweating</b>\n
+        -<b>Intolerance to Heat</b>\n
+        -<b>Exophthalmos</b>\n
+    </string>
+
+    <string name="e2">In people with Heart condition, their heart condition keeps getting worse. \n
+
+    </string>
+
+    <string name="e3">Still having doubts? </string>
+    <string name="e4"><u>Click here to get yourself tested!</u></string>
+
+
     <string-array name="Spinner">
         <item>A+</item>
         <item>O+</item>

@@ -48,7 +48,7 @@ public class ChildFragment extends Fragment{
 
     private void initData() {
         movieList = new ArrayList<>();
-        movieList.add(new Child("child",  "2019"));
+        movieList.add(new Child("Why Vaccination",  " Babies are born with protection against some diseases becausae their mothers pass antibodies to them before birth."));
     }
 
 }

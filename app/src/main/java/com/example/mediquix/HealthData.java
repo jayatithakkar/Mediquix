@@ -78,7 +78,7 @@ public class HealthData extends AppCompatActivity{
 
 
 
-                                    Data info = new Data(Name, Email, Gender, Contact, bgr,ag,wg);
+                                    Data info = new Data(Name, Email,  Contact, bgr,ag,wg);
 
                                     FirebaseDatabase.getInstance().getReference("Info").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                             .setValue(info).addOnCompleteListener(new OnCompleteListener<Void>() {
