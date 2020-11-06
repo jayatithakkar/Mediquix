@@ -17,7 +17,7 @@ public class CovidFragment extends Fragment {
 
     EditText tsh, t3, t4;
     String ts, tt, tf;
-    TextView tv, clk;
+    TextView tv, clk, clk2;
 
     Button sb;
     View v;
@@ -35,6 +35,7 @@ public class CovidFragment extends Fragment {
 
         tv=v.findViewById(R.id.rs);
         clk=v.findViewById(R.id.rs2);
+        clk2=v.findViewById(R.id.rs3);
 
 
 
@@ -50,13 +51,8 @@ public class CovidFragment extends Fragment {
                     if(Double.parseDouble(tt)>220 && Double.parseDouble(tf)>1.8){
                         tv.setVisibility(View.VISIBLE);
                         clk.setVisibility(View.VISIBLE);
-                        clk.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                Intent i = new Intent(getActivity(), test2.class);
-                                startActivity(i);
-                            }
-                        });
+                        clk2.setVisibility(View.INVISIBLE);
+
                         tv.setText("Results: Hyperthyroidism");
                     }
                 }
@@ -64,14 +60,9 @@ public class CovidFragment extends Fragment {
                 else if(Double.parseDouble(ts)>4){
                     if(Double.parseDouble(tt)<80 && Double.parseDouble(tf)<0.8){
                         tv.setVisibility(View.VISIBLE);
-                        clk.setVisibility(View.VISIBLE);
-                        clk.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                Intent i = new Intent(getActivity(), test2.class);
-                                startActivity(i);
-                            }
-                        });
+                        clk2.setVisibility(View.VISIBLE);
+                        clk.setVisibility(View.INVISIBLE);
+
                         tv.setText("Results: Hypothyroidism");
                     }
                 }
@@ -79,6 +70,8 @@ public class CovidFragment extends Fragment {
                 else if(Double.parseDouble(ts)<4 && Double.parseDouble(ts)>0.4){
                     if(Double.parseDouble(tt)>80 && Double.parseDouble(tf)>0.8 && Double.parseDouble(tt)<220 && Double.parseDouble(tf)<1.8){
                         tv.setVisibility(View.VISIBLE);
+                        clk2.setVisibility(View.INVISIBLE);
+                        clk.setVisibility(View.INVISIBLE);
 
                         tv.setText("Results: NORMAL");
                     }

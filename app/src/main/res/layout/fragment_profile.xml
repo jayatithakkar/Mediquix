@@ -123,6 +123,7 @@
                 android:layout_marginStart="15dp"
                 android:orientation="vertical">
                 <TextView
+                    android:id="@+id/u2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"

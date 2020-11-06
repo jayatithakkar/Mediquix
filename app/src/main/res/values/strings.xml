@@ -56,6 +56,85 @@
     <string name="e3">Still having doubts? </string>
     <string name="e4"><u>Click here to get yourself tested!</u></string>
 
+    <string name="hy"><b>Medicines:</b>\n
+    -Carbimazol \n
+        -Propylthiouracil\n
+        <b>Other Solutions:</b>\n
+        -Surgery \n
+        -Radioactive Iodine
+    </string>
+
+    <string name="ho"><b>Medicines:</b>\n
+    -Eltroxin \n
+        -Thyroxin tablets (For low Iodine)
+    </string>
+
+    <string name="c1">\tBabies are born with protection against some diseases because their mothers pass antibodies (proteins made by the body to fight disease) to them before birth. Breastfed babies continue to get more antibodies in breast milk. But in both cases, the protection is temporary. \n
+    \tVaccination is a way to create immunity to (protection from) some diseases. This is done by using small amounts of a killed or weakened germ that causes the disease.</string>
+
+    <string name="c2">\tBefore leaving the hospital or birthing center, your baby receives the first of 3 doses of the vaccine that protects against<b> Hepatitis B. </b>\n
+    \tHepatitis B virus can cause chronic swelling of the liver and possible lifelong complications.\n
+    \tIt’s important to protect infants and young children from hepatitis B because they are more likely than adults to develop incurable chronic (long term) infection that can result in liver damage and liver cancer.</string>
+
+    <string name="c3">\tProtect your baby by providing immunity early in life. Starting at 1 to 2 months of age, your baby receives the following vaccines to develop immunity from potentially harmful diseases:\n
+    -Hepatitis B (2nd dose)\n
+    -Diphtheria, tetanus, and whooping cough (pertussis) (DTaP)\n
+        -Haemophilus influenzae type b (Hib)\n
+        -Polio (IPV)\n
+        -Pneumococcal (PCV)\n
+        -Rotavirus (RV)
+    </string>
+
+    <string name="c4">Protect your baby by providing immunity early in life. Stay on track with the recommended vaccine schedule. At 4 months of age, your baby receives the following vaccines to develop immunity from potentially harmful diseases:\n
+    -Diphtheria, tetanus, and whooping cough (pertussis) (DTaP)\n
+    -Polio (IPV)\n
+    -Pneumococcal \n(PCV)
+    -Rotavirus (RV)\n
+    -Hepatitis B (HepB)
+    </string>
+
+    <string name="c5">Protect your baby by providing immunity early in life. Stay on track with the recommended vaccine schedule. At 6 months of age, your baby receives the following vaccines to develop immunity from potentially harmful diseases:\n
+    -Diphtheria, tetanus, and whooping cough (pertussis) (DTaP)\n
+        -Polio (IPV)\n
+        -Pneumococcal (PCV)\n
+        -Rotavirus (RV)\n
+        -Hepatitis B (HepB)
+    </string>
+
+    <string name="c6">There are usually no vaccinations scheduled between 7 and 11 months of age. However, if your baby has missed an earlier vaccination, now is a good time to “catch up.”\n
+
+                  Babies 6 months and older should receive flu vaccination every flu season.\n
+
+    </string>
+
+    <string name="c7">Protect your baby by providing immunity early in life. Stay on track with the recommended vaccine schedule. At 4 months of age, your baby receives the following vaccines to develop immunity from potentially harmful diseases:\n
+    -Polio (IPV)\n
+        -Pneumococcal (PCV)\n
+        -Rotavirus (RV)\n
+        -Hepatitis B (HepB)\n
+        -Hepatitis A (HepA)\n
+        -Measles, mumps, rubella (MMR)\n
+        -Chickenpox (Varicella)\n
+
+        \n
+        \tAdditionally, children should receive flu vaccination every flu season.
+    </string>
+
+    <string name="c8">Between 2 and 10 years of age, your child should visit the doctor once a year for check-ups.\n
+
+                      Additionally, children should receive flu vaccination every flu season.\n
+    </string>
+
+    <string name="c9">There are four vaccines recommended for preteens—these vaccines help protect your children, their friends, and their family members.\n
+    -Meningococcal conjugate vaccine\n
+    -HPV vaccine\n
+        -Tdap\n
+        -Flu vaccine every flu season\n
+
+        \n
+        \tAdditionally, children should receive flu vaccination every flu season.
+    </string>
+
 
     <string-array name="Spinner">
         <item>A+</item>

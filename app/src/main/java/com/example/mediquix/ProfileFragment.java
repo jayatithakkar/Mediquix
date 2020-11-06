@@ -24,7 +24,7 @@ import com.google.firebase.database.ValueEventListener;
 public class ProfileFragment extends Fragment {
 
     DatabaseReference dr;
-    TextView tv,lg;
+    TextView tv,lg, tr;
     LinearLayout ll;
     ImageView vi, lgo;
     FirebaseAuth h;
@@ -41,8 +41,17 @@ public class ProfileFragment extends Fragment {
         h=FirebaseAuth.getInstance();
 
         tv=(TextView) rootview.findViewById(R.id.hiii);
+        tr=(TextView) rootview.findViewById(R.id.u2);
         lg=(TextView) rootview.findViewById(R.id.lg1);
 
+
+        tr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent u =new Intent(getActivity(), test2.class);
+                startActivity(u);
+            }
+        });
         lg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

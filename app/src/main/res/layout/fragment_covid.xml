@@ -127,7 +127,7 @@
         android:layout_below="@+id/tfour"
         android:gravity="center"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="34dp"
         android:id="@+id/btnt4"/>
 
     <TextView
@@ -136,22 +136,35 @@
         android:layout_below="@+id/btnt4"
         android:layout_centerHorizontal="true"
         android:text="hi"
-        android:layout_marginTop="35dp"
-        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
         android:textColor="@color/dark"
         android:visibility="invisible"
         android:id="@+id/rs"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="Click here to know what went wrong!"
-        android:textColor="#1EB0F3"
-        android:layout_below="@+id/rs"
-        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
         android:visibility="invisible"
+        android:gravity="center_horizontal"
+        android:text="@string/hy"
+        android:layout_below="@+id/rs"
+        android:layout_marginTop="5dp"
         android:id="@+id/rs2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_horizontal"
+        android:visibility="invisible"
+        android:text="@string/ho"
+        android:layout_below="@+id/rs"
+        android:layout_marginTop="5dp"
+        android:id="@+id/rs3"/>
 
 
 
